@@ -1,0 +1,246 @@
+/*-----------------------------------------------------------*/
+/*  COLORS */
+/*-----------------------------------------------------------*/
+/*
+
+Pink - #f708b7
+
+
+
+*/
+
+/*-----------------------------------------------------------*/
+/*  BASIC SETUP */
+/*-----------------------------------------------------------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #000;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '_';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*  REUSABLE */
+/*-----------------------------------------------------------*/
+
+h2 {
+    text-align: center;
+    font-size: 230%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+h3 {
+    font-size: 120%;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+section {
+    padding: 80px 0;
+}
+
+
+.p-section {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+/* ------------- BUTTONS ------------- */
+
+.btn-ghost {
+    padding: 10px 30px;
+    border-radius: 200px;
+    border: 2px solid #5A2D73;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #5A2D73;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+
+/*-----------------------------------------------------------*/
+/*  NAVIGATION */
+/*-----------------------------------------------------------*/
+
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)), url(homeBG.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+    position: relative;
+    overflow: hidden;
+}
+
+
+.menu {
+    margin-top: 30px;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+}
+
+
+
+.menu-item {margin-top: 30px;}
+
+.menu-item li {
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: uppercase;
+    
+}
+
+.menu-item li a {
+    color: #ccf7fd;
+    font-size: 80%;
+    padding: 15px 0;
+    border-bottom: 2px solid transparent;
+    
+    
+}
+
+.menu-item li a:hover,
+.menu-item li a:active {
+    border-bottom: 2px solid #f708b7;
+    transition: border-bottom 0.5s;
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------*/
+/*  PARALLAX - MAIN PAGE */
+/*-----------------------------------------------------------*/
+
+
+
+.sax {
+    background-image: url(saxJonas.png);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 600px;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: -680px;
+    top: 210px;
+    z-index: 10;
+}
+
+.violino {
+    background-image: url(violino.png);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 600px;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: -680px;
+    top: 210px;
+    z-index: 9;
+}
+
+.vocal {
+    background-image: url(vocal.png);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 600px;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 210px;
+    z-index: 8;
+}
+
+
+
+
+
+/*-----------------------------------------------------------*/
+/*  THE SHOW */
+/*-----------------------------------------------------------*/
+
+
+
+.show {
+    background-color: #fff;
+}
+
+.services {
+    padding: 10px;
+    margin-right: 30px;
+    width: 85%;
+    margin-left: 10px;
+}
+
+.services:last-of-type {margin-right: 0;}
+
+.services i {
+    color: #f708b7;
+    font-size: 250%;
+}
+
+.services p {
+    font-size: 90%;
+    line-height: 30px;
+}
+
+
+
+
+
+.sax2 {
+    background-image: url(jonassax.png);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 600px;
+    background-position: right bottom;
+    position: absolute;
+    left: 50%;
+    top: 1800px;
+    margin-left: -180px;
+    z-index: 10;
+}
+
+
+
